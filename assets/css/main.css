@@ -72,7 +72,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-color: #34495e;
+	background-color: #143346;
 	padding-top: 60px;
 }
 
@@ -122,6 +122,11 @@ a:after {
 	background-color: #34495e;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+#download {
+	padding-top: 5px;
+	padding-bottom: 50px;    
 }
 
 #showcase h1 {
