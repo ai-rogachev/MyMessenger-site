@@ -20,8 +20,6 @@
     
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
-    
-
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
@@ -43,7 +41,7 @@
 	            <li class="active"><a href="#home" class="smothscroll">Home</a></li>
 	            <li><a href="#desc" class="smothscroll">Description</a></li>
 	            <li><a href="#showcase" class="smothScroll">Showcase</a></li>
-				<li><a href="#download" class="smothScroll">Download</a></li>
+				<li><a href="#tech-stack" class="smothScroll">Tech stack</a></li>
 	            <li><a href="#contact" class="smothScroll">Contact</a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
@@ -57,7 +55,8 @@
 	    	<div class="row centered">
 	    		<div class="col-lg-12">
 					<h1>Welcome To <b>MyMessenger</b></h1>
-					<h3>Another one handmade application - just send message... Just for fun :))</h3>
+					<h3>"NOMEN ILLIS LEGIO"</h3>
+					<h3>Another one app - just send message... Just for fun &#128512</h3>
 					<br>
 	    		</div>
 	    		
@@ -66,8 +65,10 @@
 	    			<p>Simple client and simple server as result of learning socket programming.</p>
 	    			<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
 	    		</div>
-	    		<div class="col-lg-8" style="text-align: center; width:auto">
-	    			<img class="img-responsive" src="assets/img/app_login.png" alt="">
+	    		<div class="col-lg-8" style="display: flex; justify-content: center;">
+	    			<a href="http://188.243.16.111:3000/" target="_blank">
+						<img class="img-responsive" src="assets/img/app_login.png" alt="">
+					</a>
 	    		</div>
 	    		<div class="col-lg-2">
 	    			<br>
@@ -206,26 +207,22 @@
 		</div><!-- /container -->
 	</div>	
 
-	<section id="download" name="download"></section>
-	<div id="download">
+	<section id="tech-stack" name="tech-stack"></section>
+	<div id="tech-stack">
 		<div class="container">
 			<div class="row">
-				<h1 class="centered">Download</h1>
-				<br>
+				<h1 class="centered">Tech steck</h1>
 				<div class="col-lg-8 col-lg-offset-2">
-					<h2>Release v1.0</h2>
-					<p>Download 64-bit x64 - <a href="https://drive.google.com/drive/folders/1VorUMWVk1hf3N1q95wNjMZF9jdGpzQ93?usp=sharing"> zip package</a></p>					
-					<h4>Installation guide:</h4>
+					<h4>Tech components:</h4>
 					<ul>
-						<li>Unzip archive</li>
-						<li>Run .exe file</li>
+						<li>ReactJS</li>
+						<li>HTML + CSS</li>
+						<li>CMake</li>
+						<li>C++ 17</li>
+						<li>C++ Lib: Boost::Asio</li>
+						<li>C++ Lib: Crypto++</li>
 					</ul>
 					<br>
-					<p>GitHub Repo -  
-						<a href="https://github.com/ai-rogachev/MyMessenger">
-						https://github.com/ai-rogachev/MyMessenger
-						</a>
-					</p>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -237,30 +234,11 @@
 			<div class="col-lg-5">
 				<h3>Address</h3>
 				<p>
-				Saint Petersburg,<br/>
-				Russia
+				Russia, Saint Petersburg.
 				</p>
-			</div>
-			
-			<div class="col-lg-7">
-				<h3>Drop Us A Line</h3>
-				<br>
-				<form role="form" action="#" method="post" enctype="plain"> 
-				  <div class="form-group">
-				    <label for="name1">Your Name</label>
-				    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
-				  </div>
-				  <div class="form-group">
-				    <label for="email1">Email address</label>
-				    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
-				  </div>
-				  <div class="form-group">
-				  	<label>Your Text</label>
-				  	<textarea class="form-control" name="Message" rows="3"></textarea>
-				  </div>
-				  <br>
-				  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
-				</form>
+				<address>
+					Written by <a href="mailto:my-messenger@inbox.ru">MyMessenger</a>.<br>
+				</address>
 			</div>
 		</div>
 	</div>
