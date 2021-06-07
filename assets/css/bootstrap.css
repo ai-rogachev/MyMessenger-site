@@ -6013,8 +6013,6 @@ body.modal-open,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: auto;
-  width:70%; 
   margin: auto;
   line-height: 1;
 }
